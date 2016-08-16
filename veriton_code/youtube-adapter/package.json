@@ -1,0 +1,22 @@
+{
+  "name": "youtube-adapter",
+  "version": "0.0.1",
+  "description": "veritone youtube adapter",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "keywords": [
+    "youtube"
+  ],
+  "author": "Pawan Kumar Goyal <pawanpec@gmail.com> (http://schoolspedia.com)",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.74.0",
+    "should": "^11.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
